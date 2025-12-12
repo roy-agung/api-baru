@@ -4,12 +4,14 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class User extends Model
+class Eksplore extends Model
 {
-    protected $table = "user";
+    protected $table = "eksplore";
 
     protected $fillable = [
         'nis',
-        'password'
+        'nama',
+        'rombel',
+        'rayon'
     ];
 }
